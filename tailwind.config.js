@@ -1,3 +1,4 @@
+// Configure your template paths
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
