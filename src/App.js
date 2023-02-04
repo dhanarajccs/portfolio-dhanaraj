@@ -1,13 +1,13 @@
 import './App.css';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes/Routes';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Dhanaraj Narasimmareddy
-      </h1>
+    <div className="w-[1440px] m-auto">
+      <RouterProvider router={router} />     
     </div>
   );
 }
 
-export default App;
+export default App; 
