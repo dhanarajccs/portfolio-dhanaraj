@@ -6,13 +6,11 @@ const Navbar = () => {
 
   const menuItems = (
     <>
-      <li>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/services">Services</Link>
-        <Link to="/contact">Contact</Link>
-      </li>
+      <li><Link to="/" className='hover:text-secondary font-bold hover:border-2 hover:border-red-600 rounded'>Home</Link></li>
+      <li><Link to="/about" className='hover:text-secondary font-bold hover:border-2 hover:border-red-600 rounded'>About</Link></li>
+      <li><Link to="/projects" className='hover:text-secondary font-bold hover:border-2 hover:border-red-600 rounded'>Projects</Link></li>
+      <li><Link to="/services" className='hover:text-secondary font-bold hover:border-2 hover:border-red-600 rounded'>Services</Link></li>
+      <li><Link to="/contact" className='hover:text-secondary font-bold hover:border-2 hover:border-red-600 rounded'>Contact</Link></li>
     </>
   )
   return (
@@ -51,7 +49,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="https://github.com/dhanarajccs/portfolio-dhanaraj" target="_blank" className="btn" download="Document">Download CV</a>
+          <a href="https://github.com/dhanarajccs/portfolio-dhanaraj" target="_blank" className="btn hover:text-warning font-bold border-2 border-red-600 rounded" download="Document">Download CV</a>
         </div>
       </div>
     </div>
