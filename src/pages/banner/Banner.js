@@ -1,14 +1,14 @@
+import React from 'react'
+import Lottie from 'lottie-react';
+import webAnimation from './../../assets/banner/19438-web-designer.json'
+
 const Banner = () => {
   return (
     <div>
       <div className="bg-base-200 p-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-3">
-          <div>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsVUx9QvlEi_jfvD3q0AAY6m1X2KE0XS997w&usqp=CAU"
-              className="max-w-sm rounded-lg shadow-2xl"
-              alt=""
-            />
+          <div className="w-[300px] lg:w-full">
+           <Lottie animationData={webAnimation} loop />
           </div>
           <div className="w-[300px] lg:w-full flex flex-col justify-center items-enter">
             <h1 className="lg:text-5xl text-secondary font-bold">Dhanaraj Narasimmareddy!</h1>
