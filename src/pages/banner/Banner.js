@@ -28,7 +28,8 @@ const Banner = () => {
               intuitive, user-friendly, and visually appealing web applications
               that meet the needs of both businesses and users.
               <br />
-              <br />I have a strong foundation in React, HTML, CSS, JavaScript,
+              <br />
+              I have a strong foundation in React, HTML, CSS, JavaScript,
               and other relevant technologies. I take pride in writing clean,
               maintainable, and well-documented code, and I am always looking
               for ways to improve my skills and stay up-to-date with the latest

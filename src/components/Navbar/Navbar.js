@@ -49,7 +49,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="https://github.com/dhanarajccs/portfolio-dhanaraj" target="_blank" className="btn hover:text-warning font-bold border-2 border-red-600 rounded" download="Document">Download CV</a>
+          <a href="https://github.com/dhanarajccs/portfolio-dhanaraj" target="_blank" rel="noreferrer" className="btn hover:text-warning font-bold border-2 border-red-600 rounded" download="Document">Download CV</a>
         </div>
       </div>
     </div>
